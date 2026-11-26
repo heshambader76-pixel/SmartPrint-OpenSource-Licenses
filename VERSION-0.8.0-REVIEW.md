@@ -1,34 +1,51 @@
-# SmartPrint Pro 0.8.0 - Third-party source coverage review
+# SmartPrint Pro 0.8.0: third-party licensing evidence and remaining checks
 
-Date: 2026-11-25
+Updated: 26 November 2026
 
-## Published source archive
+## Released public material
 
-The publicly accessible **v0.7.0** archive is available here:
+- Existing public [v0.7.0 covered-source Release](https://github.com/heshambader76-pixel/SmartPrint-OpenSource-Licenses/releases/tag/v0.7.0).
+- [Covered-source ZIP](https://github.com/heshambader76-pixel/SmartPrint-OpenSource-Licenses/releases/download/v0.7.0/SmartPrint-Pro-0.7.0-Covered-Sources.zip), approximately 1.08 GB, is listed as a public GitHub release asset.
+- This public repository contains **no proprietary Android Studio app source**, private billing verifier, credentials, or signing keys.
 
-- [Covered sources, supplier notices and provenance materials](https://github.com/heshambader76-pixel/SmartPrint-OpenSource-Licenses/releases/tag/v0.7.0)
+The existing app version 0.8.0 links to the v0.7.0 Release. That URL is not a statement that the actual 0.8.0 native bundle has been fully reconciled with the public v0.7.0 archive.
 
-The proprietary SmartPrint app repository and its standalone Android Studio ZIP must remain private.
+## Evidence compared for app releases
 
-## Verified source changes between v0.7.0 and v0.8.0
+Private project, reviewed commits:
+- Base v0.7.0: `2856ab279fb8f804ef908b2541bf1828ce8ce34d`
+- 0.8.0 owner-approved APK: `21b023eb73f7fd34221ba6b28ef6adf869b7af04`
 
-Compared private app commits:
-- 0.7.0: `2856ab279fb8f804ef908b2541bf1828ce8ce34d`
-- 0.8.0 Remove Ads tested fix: `21b023eb73f7fd34221ba6b28ef6adf869b7af04`
+Compared repository trees and the build configuration at both commits:
+- **95** Android runtime third-party dependency coordinates are recorded in `third_party/android/runtime-components.json` at both commits. The Git blob SHA is identical: `23efefa55048160170e846286ce5d5db6d645878`. This inventory lists exact coordinates, declared licenses, supplier notices, upstream POM links and artifact SHA-256 values.
+- The Gradle dependency declarations in `SmartPrintPro/app/build.gradle.kts` are unchanged in the inspected version comparison, although this build file itself changed for version and test billing configuration.
+- GitHub commit comparison shows no changed tracked native engine, font or third-party legal notice files between these commits.
+- App functionality, PDF UI, locales, license-link behavior, and build settings did change. Thus this is **evidence of tracked third-party payload continuity**, not a proof of identical complete APK/AAB content or perfect build-to-source correspondence.
 
-GitHub's comparison shows unchanged third-party Android dependency versions in `SmartPrintPro/app/build.gradle.kts`, and no tracked native engine or font binary file changes. The application code and UI/build settings **did** change. This comparison is useful evidence but is not a substitute for a complete inventory of the actual final APK/AAB.
+## OpenSymbol: specific upstream evidence
 
-## Items needed before marking 0.8.0 licensing complete
+The 0.8.0 private project preserves `OpenSymbol-README.txt`, which describes regenerating the font from `extras/source/truetype/symbol/OpenSymbol.sfd` with FontForge. The version 102.12 font and its preferred SFD source are described in the existing covered-source package notice.
 
-- Compare exact font, native shared-library and third-party dependency inventories and hashes from the final 0.8.0 APK/AAB against the public source package and original supplier notices.
-- Document authoritative license terms and correspondence for OpenSymbol 102.12. No unsupported font license grant should be asserted.
-- Trace exact native binary build inputs and component versions, including sqlite3, NSS, NSPR and LibreOffice patches/recipes, and reconcile any missing corresponding sources.
-- Confirm original SmartPrint icon/logo distribution rights separately; proprietary app assets are not automatically public covered source.
-- Confirm that a final appropriate source and notices package is publicly available and that links from the app accurately identify it. A v0.8.0 final license Release is **not yet published**.
-- Keep the private app source, billing verifier, credentials and signing assets out of this repository.
+Independent package sources also identify OpenSymbol as a component of LibreOffice:
+- [Debian fonts-opensymbol 102.12 package](https://packages.debian.org/stable/fonts/fonts-opensymbol)
+- [Debian LibreOffice copyright metadata, including OpenSymbol.sfd](https://sources.debian.org/copyright/license/libreoffice/4%3A25.2.3-2%2Bdeb13u6/)
+- [LibreOffice upstream tagged font directory](https://github.com/LibreOffice/core/tree/libreoffice-26.2.6.3/extras/source/truetype/symbol)
+- [LibreOffice licensing overview](https://www.libreoffice.org/licenses/)
 
-**Status: review in progress, not a statement of completed license compliance or readiness for commercial distribution.**
+**Unresolved:** those references identify origins, copyright and licensing context, but have not been used to establish conclusively the license scope of the exact redistributed 102.12 font binary, including all third-party glyph contributions. No blanket OFL-1.1 license is claimed for OpenSymbol.
 
-Official licensing information:
-- [LibreOffice licensing](https://www.libreoffice.org/about-us/licenses/)
-- [Mozilla Public License 2.0 FAQ](https://www.mozilla.org/en-US/MPL/2.0/FAQ/)
+## Other matching-source and attribution items
+
+- The project notice identifies the LibreOffice/LibreOfficeKit **26.2.6.3** upstream tag, F-Droid matching source archive, and project-covered Java/XML modifications. Further per-component mapping is needed to establish actual downstream binaries and their precise patches/build inputs.
+- The existing native notice identifies NSS **3.128**, NSPR **4.39**, SQLite **3.53.0**, and NDK r29 / LLVM 21 for libc++. Check build input provenance and notices for each final binary, including embedded/static components.
+- The font notice distinguishes legacy **Liberation Sans Narrow** (GPL-2.0 plus font agreement/exception) from modern **Liberation 2.1.5** (OFL-1.1); they are not interchangeable licenses.
+- Project owner must affirm rights in original app logo and vector artwork separately. These proprietary graphics are not automatically subject to covered-source publication.
+- Google Mobile Ads, Play Services, UMP and Billing SDK terms and app-store policies are separate from open-source copyright notices.
+
+## Gate to claim complete licensing review
+
+Before representing v0.8.0 as fully audited, independently inspect the final distributed APK/AAB and public 1.08 GB archive at a binary/file-manifest level, record the exact matching source files and build recipes, and close the font and graphic-rights questions.
+
+**Current status: public materials available; third-party dependency list and tracked payload continuity verified; final binary-to-source and select rights checks NOT completed. Do not label this a final legal sign-off.**
+
+Contact: [support@costrichapp.com](mailto:support@costrichapp.com).
