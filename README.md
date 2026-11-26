@@ -1,6 +1,10 @@
 # SmartPrint Pro — Open Source Licenses and Covered Sources
 
-Public third-party notices and covered-source materials for SmartPrint Pro.
+**SmartPrint Pro 0.7.0 and 0.8.0: public open-source notices and covered-source materials.**
+
+The existing [covered-source ZIP](https://github.com/heshambader76-pixel/SmartPrint-OpenSource-Licenses/releases/download/v0.7.0/SmartPrint-Pro-0.7.0-Covered-Sources.zip), originally published with v0.7.0, is also the published covered-source package for the unchanged LibreOffice engine, fonts and covered modifications verified in the SmartPrint Pro **0.8.0 ARM64 APK**. The source archive name remains v0.7.0 because its contents have not changed; the 0.8.0 notices and audit are linked below.
+
+This is a source-availability statement, not independent legal certification of every third-party component.
 
 - [SmartPrint Pro 0.8.0 technical licensing review](VERSION-0.8.0-REVIEW.md)
 - [Audit report in Hebrew](AUDIT-0.8.0.he.md)
