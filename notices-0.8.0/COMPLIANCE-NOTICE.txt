@@ -1,0 +1,35 @@
+SmartPrint Pro 0.7.0 — reviewed notices and distribution conditions
+Copyright in the application remains with its respective authors. Third-party software is separately licensed. Commercial distribution is permitted subject to each applicable license; this notice is not a substitute for compliance.
+
+Android Java/Kotlin components
+The adjacent runtime inventory lists direct and transitive runtime coordinates and official POMs. Full supplier LICENSE/NOTICE and Google SDK third_party_licenses.txt/json are retained without truncation. AndroidX, Material, Kotlin and many support libraries use Apache-2.0; PDFBox additionally includes BSD/Adobe/Unicode notices; Bouncy Castle uses its own MIT-style license. Google Mobile Ads, UMP, Play Services and Billing also require acceptance of Google's applicable proprietary SDK/service terms. Third-party notices do not relicense the Google SDK itself.
+
+JSR-305 3.0.2 special attribution
+GuardedBy, Immutable, NotThreadSafe and ThreadSafe (javax.annotation.concurrent): Copyright (c) 2005 Brian Goetz. Licensed under Creative Commons Attribution 2.5: https://creativecommons.org/licenses/by/2.5/ . Source attribution: Java Concurrency in Practice, http://www.jcip.net/ ; matching source archive https://repo.maven.apache.org/maven2/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2-sources.jar . These third-party classes are included unmodified; attribution does not imply endorsement. Other JSR-305 classes retain their original Apache-2.0 notices.
+
+LibreOffice / LibreOfficeKit 26.2.6.3
+Copyright 2000–2026 LibreOffice contributors; portions Copyright 2000–2011 Oracle and/or affiliates; The Document Foundation and OpenOffice.org contributors. MPL-2.0 is selected for the MPL-subset Android build. LibreOffice names are trademarks of their owners; no endorsement is claimed.
+Matching upstream tag libreoffice-26.2.6.3, commit 8221e31b3ac356a1623c672912a3d2b492f7e3d1:
+https://github.com/LibreOffice/core/tree/libreoffice-26.2.6.3
+Corresponding F-Droid source: https://f-droid.org/repo/org.documentfoundation.libreoffice_131_src.tar.gz
+The covered-source package includes the complete corresponding upstream archive and the current modified LibreOfficeKit.java plus main.xcd. Office.java and Document.java are unmodified upstream files. It excludes proprietary SmartPrint application and billing code. Covered modifications remain MPL-2.0. The raw upstream third-party license template is retained for completeness, not presented as a definitive compiled-library SBOM; conditional sections can describe components absent from this build. The upstream COPYING file contains GPL text and is retained verbatim; it does not by itself make this entire MPL-subset build GPL.
+
+Native runtime
+NSS 3.128 and NSPR 4.39 retain Mozilla licensing and copyright notices. SQLite 3.53.0 is dedicated to the public domain: https://sqlite.org/copyright.html . libc++_shared originates from Android NDK r29, LLVM 21; retain Apache-2.0 WITH LLVM-exception and legacy MIT/NCSA notices in Llvm-LICENSE.txt. Other statically linked LibreOffice runtime components retain the upstream license text and corresponding source within the covered-source archive. No claim is made that every conditional upstream component is linked into this binary.
+
+Fonts — unchanged binaries
+Caladea 1.002 (four faces): Copyright (c) 2012 Huerta Tipografica; Apache-2.0.
+Carlito 1.103 Beta 1 (four faces): Copyright (c) 2010–2013 tyPoland Lukasz Dziedzic, Reserved Font Name Carlito; SIL OFL-1.1.
+Gentium Basic / Gentium Book Basic 1.102 (eight faces): Copyright 2003–2013 SIL International; Reserved Font Names Gentium and SIL; SIL OFL-1.1. Embedded font metadata preserves the full license.
+Liberation Mono/Sans/Serif 2.1.5 (12 faces, plus PDFBox's Liberation Sans): Copyright 2010 Google and 2012 Red Hat; SIL OFL-1.1.
+Liberation Sans Narrow 1.07.5 (four faces): Copyright 2010 Oracle; GPL-2.0 with the Liberation font agreement and document-embedding exception. It is NOT covered by the newer Liberation OFL license. Both the agreement and GPL text are included separately. TTF metadata reports 1.07.5, but glyph uni02C9 matches the official 1.07.6 correction in all four faces; preferred SFD sources from both official tags are supplied. Do not infer the complete source revision from the version string alone. Font embedding does not on its own make generated PDFs or the proprietary app GPL; the source/redistribution conditions still apply to the font itself.
+OpenSymbol 102.12: copyright Sun Microsystems and additional glyph contributors; preferred source OpenSymbol.sfd and upstream README are supplied. The upstream font's explicit license scope needs owner/legal confirmation before commercial release; do not assume OFL from neighboring fonts. See release readiness report.
+
+Graphics
+LibreOffice Colibre icon assets: upstream CC0 notices, including Andreas Kainz attribution, remain in the upstream legal text/source. Existing project launcher and UI vector assets are preserved; their source history is recorded in ASSET_PROVENANCE.md. Ownership of locally authored assets requires confirmation by the owner; no third-party author or assignment is invented.
+
+Source access and remaining gates
+The owner must publish the covered-source archive and this license page before commercial distribution and keep sources available for the license-required period. Online target: https://costrichapp.com/smartprint/pro/licenses/ . Contact support@costrichapp.com if source access fails. This test build is not a declaration that all commercial-release legal gates are closed. In particular OpenSymbol provenance/license scope, complete native dependency-to-source mapping and owner graphics provenance require final confirmation documented in the release report.
+
+Ads and purchases
+Ads and Billing do not remove the licenses above. Google policies, UMP consent obligations and privacy disclosures also apply. This build uses test ad units and purchases are disabled. No real-charge or live-ad activation is authorized by these notices.

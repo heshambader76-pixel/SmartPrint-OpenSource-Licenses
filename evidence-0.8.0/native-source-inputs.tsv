@@ -1,0 +1,213 @@
+kind	path inside F-Droid source archive	bytes	SHA256
+source / recipe / patch	COPYING	35147	8ceb4b9ee5adedde47b31e975c1d90c73ad27b6b165a1dcd80c7c545eb65b903
+source / recipe / patch	COPYING.MPL	16725	1f256ecad192880510e84ad60474eab7589218784b9a50bc7ceee34c2b91f1d5
+source / recipe / patch	android/Bootstrap/src/org/libreoffice/kit/Document.java	9538	321461b4c99788895b7470e25c3fc950ee1b2c3f982c12d67096497b188b6d68
+source / recipe / patch	android/Bootstrap/src/org/libreoffice/kit/LibreOfficeKit.java	3915	f487c7c16ac5d4313d6c38ba2328c3dade2bf504b376e6c0f1b13eaa12ec3f9d
+source / recipe / patch	android/Bootstrap/src/org/libreoffice/kit/Office.java	2110	e2b8bf695095dcd172e7f2a5398574376f648899922a930d19d566d16f9c169a
+source / recipe / patch	configure.ac	597554	edd748f195e0006a0fdacebb1951bb0414c420114389131ce1d9c2677d2f8a70
+source / recipe / patch	distro-configs/LibreOfficeAndroid.conf	163	b77058ae279504dafa147f0d1abab8b60c13bc971e391b5627faceda61af2a86
+source / recipe / patch	distro-configs/LibreOfficeAndroidAarch64.conf	143	05b3d6b2899952eeb4736980cf78212ec19ff11e9f0ec5dde2d87279c06a278c
+source / recipe / patch	distro-configs/LibreOfficeAndroidX86.conf	160	b4c53982e76b99c98938b270af46c4d25232972be34d50bc719c16bad597af1d
+source / recipe / patch	distro-configs/LibreOfficeAndroidX86_64.conf	162	ccd9a4c4af9933fd4bbb85d87c009b0e9c7999aa615de1e606af9c0653607160
+source / recipe / patch	download.lst	33309	f99df28fe0e0960b82528a215fd7690f042a97d1ca8d91e0ca087a78f268d4df
+source / recipe / patch	external/nss/ExternalPackage_nss.mk	1980	dbce1e986f56263bf778b31c71988201589d4934fa612d88a9205da7492d1ed1
+source / recipe / patch	external/nss/ExternalProject_nss.mk	4795	773ae5baba19609bf345d39332d0528eca46d5e01f82cf27620e5acac9a3d336
+source / recipe / patch	external/nss/Makefile	228	a3e8aecf2cefd58c22e72188a48e9ac97e219571683bec0fce42604f96e54ab8
+source / recipe / patch	external/nss/Module_nss.mk	500	06739f2111572b4447b117217ffbbb141aa7dbe540a080bc6adc8ea21697b832
+source / recipe / patch	external/nss/README	1225	3eb59c8a915b2333e430a838b6125febe828cfef7f3b04b86fd5e23f2bf15995
+source / recipe / patch	external/nss/UnpackedTarball_nss.mk	1846	fba082f085cc6350616ec90fd3751d3693ff0b5a46e0117c7b5d9220574c6228
+source / recipe / patch	external/nss/Wincompatible-function-pointer-types.patch.0	5946	1f402a6a0a37035907fc3a82d2f4abb46b1d1a6b4262320942c63114887d5d69
+source / recipe / patch	external/nss/asan.patch.1	664	9d0b85ddc55b2d7fd290dbd4f5f3dd47a6b02c1c0ade0cad756635bc27ed178e
+source / recipe / patch	external/nss/clang-cl.patch.0	3822	9bc695abe7e2351334736c217831d24b799fe6266bc7221b5a16efd4aee11e60
+source / recipe / patch	external/nss/macos-dlopen.patch.0	1009	26c5ae5d2f7f9ed2e69e8b62074dced94ab2cd50b77259b3cbbdbef7fea492dc
+source / recipe / patch	external/nss/nsinstall.py	6026	64a6480ea148412a62fd9d55f69057a918b506c2bd43bce6394dee844bada5d4
+source / recipe / patch	external/nss/nspr-win95-target.patch	405	55de53752602f4d46234deb3d520a0302080991ac957d00e402dfbec97fce717
+source / recipe / patch	external/nss/nss-android.patch.1	3568	6f2d985d94470df09e5f4b200a2b32597b9f9321e283088e464c597e0bba3abb
+source / recipe / patch	external/nss/nss-bz1646594.patch.1	527	64d880b65e94fe2c3345139e9dd5f1b5df3853b97f83f4533f075dd703770cda
+source / recipe / patch	external/nss/nss-ios.patch	8353	8599bf3e918715449dd185f450f96e56bdaf04a344e59f257a9080548f1ec9c5
+source / recipe / patch	external/nss/nss-restore-manual-pre-dependencies.patch.1	2056	127502c7a0774c15ce70a6868d2a1193d2928421c71a78393d386204289b6526
+source / recipe / patch	external/nss/nss-win32-make.patch.1	838	6ab1c362850ec8b7a6146971026a80bb2ddf67368accd75cc73f2012c267bd64
+source / recipe / patch	external/nss/nss.bzmozilla1238154.patch	508	45260e20bf06d90bad820b0ff6b126ae49ae164fc13f8c471f9737e875cfa935
+source / recipe / patch	external/nss/nss.disablefsync.patch	506	194752e3ea3e4c1eabb336445a58e2c709e6bb502757f0724588ab1daf698048
+source / recipe / patch	external/nss/nss.getrandom.patch	3101	ab5fcdff71c868cc5102b8c8e84f475ab4ec392b0ed3dcef786570acc966f3e7
+source / recipe / patch	external/nss/nss.nowerror.patch	496	fd6e8ff343aab07231426bd7393e430b4b5b2b0e1b0650e13f613caf1ff2448d
+source / recipe / patch	external/nss/nss.patch	6020	3cfa24f7588361f486a599761053c05243eea346fbcf3fd9b59fd6b99f74aaa2
+source / recipe / patch	external/nss/nss.utf8bom.patch.1	617	cc2878ea56dc0280018b139022d589fbd3eea6824f58abff61b7b9f8ba4a7905
+source / recipe / patch	external/nss/nss.vs2015.patch	631	7ebcad79e413ec3891b54524452749660ce3c4f92022c08b95cd75ee41a6ae56
+source / recipe / patch	external/nss/nss.vs2015.pdb.patch	700	221e4aca4cc06ce0858a95f9a071ee2df0afc27837da4b4cf411f92ed46a8155
+source / recipe / patch	external/nss/nss.windows.patch	1502	1be97e019b0ecdc0c3ee40f23f2ace4e5da1a1481af72e82bccfe512aac1e514
+source / recipe / patch	external/nss/nss_macosx.patch	3309	8ea1a06e8bc134a5b6b2c737bec150d5bd817c10b7770dea4076bfb8f9215da3
+source / recipe / patch	external/nss/ubsan.patch.0	1368	6008c8527540b8ab7b24bffdb02cf190f8f8792bff9d37e91010222851837a98
+source / recipe / patch	external/nss/winnt.patch.0	279	35efd3c8e5c256ae621b852d12fe3dffc1145f98c99b2fe87420a7cdbb415cc4
+source / recipe / patch	external/sqlite3/Makefile	481	bf5188948b56ad718a1ab1231bb777403e1152860c38565a06835893d24fea13
+source / recipe / patch	external/sqlite3/Module_sqlite3.mk	491	5afcff2ad511ba975e1c6d9b2bb67fd9b615e170c2ed28a125790c3f4723553a
+source / recipe / patch	external/sqlite3/README	48	597900ec0ba5a6a2f012e5bb64b10be063e1688592ec3229c2c05025c6188c6f
+source / recipe / patch	external/sqlite3/StaticLibrary_sqlite3.mk	636	d7c3511d160fb9728c2d51db08c1ddac2c2d762453e61e6f08bb482ab0391864
+source / recipe / patch	external/sqlite3/UnpackedTarball_sqlite3.mk	482	feb58028def33a6ebfec81d48956e0c645c75f29f83fb7e518fc5512ad20efd4
+F-Droid archive input candidate	external/tarballs/extracted/1f5def51ca0026cd192958ef07228b52-rasqal-0.9.33.tar.gz/1f5def51ca0026cd192958ef07228b52-rasqal-0.9.33.tar	9175040	44592b32681797e2d9d0edafac387961b2002082c34187bc0937224854ed0a46
+F-Droid archive input candidate	external/tarballs/extracted/368f114c078f94214a308a74c7e991bc-crosextrafonts-20130214.tar.gz/368f114c078f94214a308a74c7e991bc-crosextrafonts-20130214.tar	256000	d65fd7b45941b69bf2f1de3cd788337912767988808d52d43d31b28586ec4d4a
+F-Droid archive input candidate	external/tarballs/extracted/442b985e604f8143a5a0e7bacd6b2e40-hyphen-2.8.9.tar.gz/442b985e604f8143a5a0e7bacd6b2e40-hyphen-2.8.9.tar	2232320	f0b85ee50137c2eb3059911baf64127aca0009300f6bcb1d0d64c5838e742d20
+F-Droid archive input candidate	external/tarballs/extracted/Agdasima-2.002.zip/Agdasima-Bold.ttf	23012	b05aeca0382510e950da319d363458287f6aac974278c5dcd8cf4a6291d219e8
+F-Droid archive input candidate	external/tarballs/extracted/Agdasima-2.002.zip/Agdasima-Regular.ttf	23152	64a789ff33d085abd189a5dab049ef35baecfc9d3a6daa8ccda09b243126ac4d
+F-Droid archive input candidate	external/tarballs/extracted/Agdasima-2.002.zip/OFL.txt	4494	cb48c6c0e41f12076ebcef67eae5549ce9af8666f2d791cf03ac4f19bb84f165
+F-Droid archive input candidate	external/tarballs/extracted/Bacasime_Antique-2.000.zip/BacasimeAntique-Regular.ttf	30276	8e9020661ed4d6be11247c85cb137ba6b9631f1b8f844dfa5142c4996defa1c4
+F-Droid archive input candidate	external/tarballs/extracted/Bacasime_Antique-2.000.zip/OFL.txt	4546	268c34ce6b9b141b200a3f122e59b80b2930c6ca968989d2f0055aa0e2b243ea
+F-Droid archive input candidate	external/tarballs/extracted/Belanosima-2.000.zip/Belanosima-Bold.ttf	39888	bb2df430cc2767abc33186c86619ec376a16b0b2f0270dde5bcf61eba717d7c2
+F-Droid archive input candidate	external/tarballs/extracted/Belanosima-2.000.zip/Belanosima-Regular.ttf	37968	d55cad2340448e327ddd4b6415a0f3c3c9d7dd1fa227507f4e20fd3e45d73a0a
+F-Droid archive input candidate	external/tarballs/extracted/Belanosima-2.000.zip/Belanosima-SemiBold.ttf	38476	fb008ba96c46b310ca88d9627b097fa3f266e677d28cb2367849ae96a64a2cb3
+F-Droid archive input candidate	external/tarballs/extracted/Belanosima-2.000.zip/OFL.txt	4538	81e9962ed51ce642d690d175f11266546c8d711bcfd1886bb6edca91cf759178
+F-Droid archive input candidate	external/tarballs/extracted/Caprasimo-1.001.zip/Caprasimo-Regular.ttf	41648	54565d93f25b94da3d5e9179739b263d49b3247dd0783740eb92865a1d4d5339
+F-Droid archive input candidate	external/tarballs/extracted/Caprasimo-1.001.zip/OFL.txt	4496	68c3f782043983389dd78a5d79e4baba0449662c8c9af7d7412e2833a00c5ace
+F-Droid archive input candidate	external/tarballs/extracted/CoinMP-1.8.4.tgz/CoinMP-1.8.4.tar	41943040	6f96179d4c70535e1a0b32bc3c07b04d2d952ddb196d7546eab4342422f90d3f
+F-Droid archive input candidate	external/tarballs/extracted/Java-WebSocket-1.6.0.tar.gz/Java-WebSocket-1.6.0.tar	1935360	7c3c590bf3820d96c51294380cd2fcc07d8a2d1137ae777051e15e69fa0629ea
+F-Droid archive input candidate	external/tarballs/extracted/Lugrasimo-1.001.zip/Lugrasimo-Regular.ttf	32492	bd988feb31c3d736a84a4a98f364c0124ce746e4773da79ce37bfd093f5e7e6f
+F-Droid archive input candidate	external/tarballs/extracted/Lugrasimo-1.001.zip/OFL.txt	4496	4cc3affa9a4d28988b4c2b3bcf242634b31025338ce052ddc1947e1e09e9a9c2
+F-Droid archive input candidate	external/tarballs/extracted/Lumanosimo-1.010.zip/Lumanosimo-Regular.ttf	38736	d67b5b71109c050a7edf3051fd9ab347d22234bf1ab0f8b7d536441f09e8e0fa
+F-Droid archive input candidate	external/tarballs/extracted/Lumanosimo-1.010.zip/OFL.txt	4498	dba53e3f8cea8b46f28590dde0f908cce685635f92930afa1a17ccbcfc93c767
+F-Droid archive input candidate	external/tarballs/extracted/Lunasima-2.009.zip/Lunasima-Bold.ttf	195440	e5dde39d969392a431b30aeaef262ff7864b2dadb9c488d9849e60d21f9c4903
+F-Droid archive input candidate	external/tarballs/extracted/Lunasima-2.009.zip/Lunasima-Regular.ttf	194120	fc731de132561ba90c7be50446b03a01f2a0165205a587e41c1f04979b6f6080
+F-Droid archive input candidate	external/tarballs/extracted/Lunasima-2.009.zip/OFL.txt	4494	4b226b0124213666044eb842a1bd92a6d5c055cd5eb562f18153ff797006c08d
+F-Droid archive input candidate	external/tarballs/extracted/NotoKufiArabic-v2.110.zip/ARTICLE.en_us.html	3184	21929b45a9442f768a9ca66a02e0b825b2b050aa4e0e803d77cb85a278553f55
+F-Droid archive input candidate	external/tarballs/extracted/NotoKufiArabic-v2.110.zip/AUTHORS.txt	247	727ab5b16dd99b3615f6fc2206f75fe78ac8ce54f20818e462b872ec57161d49
+F-Droid archive input candidate	external/tarballs/extracted/NotoKufiArabic-v2.110.zip/CONTRIBUTORS.txt	587	bcf0961ac04c8cbed58f30a7e4bf76e3df8603a8d64088cf4723d8cebd66b42a
+F-Droid archive input candidate	external/tarballs/extracted/NotoKufiArabic-v2.110.zip/DESCRIPTION.en_us.html	300	3d0a281e02dfbdd1eb21c150e6d89528fbed7a7488245cd68888c9ace8f226da
+F-Droid archive input candidate	external/tarballs/extracted/NotoKufiArabic-v2.110.zip/OFL.txt	4382	a7a5a25eb188bf1cd96982030d53e23c33485c69b1044a562254226857ee13af
+F-Droid archive input candidate	external/tarballs/extracted/NotoNaskhArabic-v2.021.zip/ARTICLE.en_us.html	1892	880d05c58077ff62d5cd366bd47f8c661fd878824639796bbfdf5bdb43942646
+F-Droid archive input candidate	external/tarballs/extracted/NotoNaskhArabic-v2.021.zip/AUTHORS.txt	247	727ab5b16dd99b3615f6fc2206f75fe78ac8ce54f20818e462b872ec57161d49
+F-Droid archive input candidate	external/tarballs/extracted/NotoNaskhArabic-v2.021.zip/CONTRIBUTORS.txt	587	bcf0961ac04c8cbed58f30a7e4bf76e3df8603a8d64088cf4723d8cebd66b42a
+F-Droid archive input candidate	external/tarballs/extracted/NotoNaskhArabic-v2.021.zip/DESCRIPTION.en_us.html	305	72b4a09327be0a37dfeba70446b80d80c9866c235febccc248259250843d55a6
+F-Droid archive input candidate	external/tarballs/extracted/NotoNaskhArabic-v2.021.zip/OFL.txt	4382	a7a5a25eb188bf1cd96982030d53e23c33485c69b1044a562254226857ee13af
+F-Droid archive input candidate	external/tarballs/extracted/NotoSans-v2.015.zip/ARTICLE.en_us.html	5252	86057f788999c55fc319d60de70961b1f37a870584d98cd3f647a3daf6450ad8
+F-Droid archive input candidate	external/tarballs/extracted/NotoSans-v2.015.zip/AUTHORS.txt	247	727ab5b16dd99b3615f6fc2206f75fe78ac8ce54f20818e462b872ec57161d49
+F-Droid archive input candidate	external/tarballs/extracted/NotoSans-v2.015.zip/CONTRIBUTORS.txt	554	05c4af69baeccb7a5ec875df9661d09bde7363404bc5a8b10ce28cf86551f01b
+F-Droid archive input candidate	external/tarballs/extracted/NotoSans-v2.015.zip/DESCRIPTION.en_us.html	532	027b003c180d1cdcec3bc4a9ceeb3fc9c2d807818f3f5d24d4d4108eef41ad88
+F-Droid archive input candidate	external/tarballs/extracted/NotoSans-v2.015.zip/OFL.txt	4396	cee9892f9f0cc8fe882c9e9537ee6a89621d86ee7ceaf70b02e2b2b1c25c061a
+F-Droid archive input candidate	external/tarballs/extracted/NotoSansArabic-v2.010.zip/AUTHORS.txt	247	727ab5b16dd99b3615f6fc2206f75fe78ac8ce54f20818e462b872ec57161d49
+F-Droid archive input candidate	external/tarballs/extracted/NotoSansArabic-v2.010.zip/CONTRIBUTORS.txt	471	30fae4014e249126a40bc01aaaa8aad443d200472de9e897affe7c9a4cefc764
+F-Droid archive input candidate	external/tarballs/extracted/NotoSansArabic-v2.010.zip/OFL.txt	4382	07fc70bfeb985cc1a87a8587d0a0c80bab11c86c9dc3fd95b6f0cb332f983e96
+F-Droid archive input candidate	external/tarballs/extracted/NotoSansArabic-v2.010.zip/requirements.txt	100	12c718731f3e8e588e25e72015157c1a39215c401385736bfa22932bab92d6bd
+F-Droid archive input candidate	external/tarballs/extracted/NotoSansArmenian-v2.008.zip/ARTICLE.en_us.html	1230	c4c2507ead20df773f874986e7d7a0646241131fdaaea60650d08f14f5e27e77
+F-Droid archive input candidate	external/tarballs/extracted/NotoSansArmenian-v2.008.zip/AUTHORS.txt	247	727ab5b16dd99b3615f6fc2206f75fe78ac8ce54f20818e462b872ec57161d49
+F-Droid archive input candidate	external/tarballs/extracted/NotoSansArmenian-v2.008.zip/CONTRIBUTORS.txt	471	30fae4014e249126a40bc01aaaa8aad443d200472de9e897affe7c9a4cefc764
+F-Droid archive input candidate	external/tarballs/extracted/NotoSansArmenian-v2.008.zip/DESCRIPTION.en_us.html	266	3bf2f0f5ba24bafae6c59c4ecd9537548ce1b07345cd345fd870b3f27c430b74
+F-Droid archive input candidate	external/tarballs/extracted/NotoSansArmenian-v2.008.zip/OFL.txt	4384	0468358b316f69f405b55cadf8a8314e16e3610b8feaad96772bd5d968112d02
+F-Droid archive input candidate	external/tarballs/extracted/NotoSansGeorgian-v2.005.zip/ARTICLE.en_us.html	1563	8dc38d137256221a3f495ef7b4f8f9920054b8fd5fd1ebac0e8fd3325e147b73
+F-Droid archive input candidate	external/tarballs/extracted/NotoSansGeorgian-v2.005.zip/AUTHORS.txt	247	727ab5b16dd99b3615f6fc2206f75fe78ac8ce54f20818e462b872ec57161d49
+F-Droid archive input candidate	external/tarballs/extracted/NotoSansGeorgian-v2.005.zip/CONTRIBUTORS.txt	471	30fae4014e249126a40bc01aaaa8aad443d200472de9e897affe7c9a4cefc764
+F-Droid archive input candidate	external/tarballs/extracted/NotoSansGeorgian-v2.005.zip/DESCRIPTION.en_us.html	266	13c0a9f55291d40e78cc1215f0e4fc58b8689917f351182fd60905aa2c379f89
+F-Droid archive input candidate	external/tarballs/extracted/NotoSansGeorgian-v2.005.zip/OFL.txt	4384	8c02263c5d73d40544f9ed91e30c4e947407057a3cc430d7b786189aeceff6df
+F-Droid archive input candidate	external/tarballs/extracted/NotoSansHebrew-v3.001.zip/ARTICLE.en_us.html	1519	1cce8224b81fb80df94b4b5daf20505674e22f0b536f521bdf3217c867d09ea4
+F-Droid archive input candidate	external/tarballs/extracted/NotoSansHebrew-v3.001.zip/AUTHORS.txt	247	727ab5b16dd99b3615f6fc2206f75fe78ac8ce54f20818e462b872ec57161d49
+F-Droid archive input candidate	external/tarballs/extracted/NotoSansHebrew-v3.001.zip/CONTRIBUTORS.txt	528	309db9c2d1a05d554d991968887c765eb2d05cb809f16ac5dce4d12ad9b01b9d
+F-Droid archive input candidate	external/tarballs/extracted/NotoSansHebrew-v3.001.zip/DESCRIPTION.en_us.html	268	ee59f3dd4d43ac2a975f82d13838a21ca9ff3471ffba7d95ef4e9f4b958c1f76
+F-Droid archive input candidate	external/tarballs/extracted/NotoSansHebrew-v3.001.zip/OFL.txt	4382	9b9fe028b5ba74d231659a1bbaf0ed09b11e759d1ca6a070999e16d151616b47
+F-Droid archive input candidate	external/tarballs/extracted/NotoSansLao-v2.003.zip/ARTICLE.en_us.html	1108	8d4887e6010833c70fcfe494e6a1526356250be05c191bae88c3471a76bbb186
+F-Droid archive input candidate	external/tarballs/extracted/NotoSansLao-v2.003.zip/AUTHORS.txt	247	727ab5b16dd99b3615f6fc2206f75fe78ac8ce54f20818e462b872ec57161d49
+F-Droid archive input candidate	external/tarballs/extracted/NotoSansLao-v2.003.zip/CONTRIBUTORS.txt	504	5c2e3bb1842da0ca0743998965cc058e27df87401c253a26ce5b9a7d32842207
+F-Droid archive input candidate	external/tarballs/extracted/NotoSansLao-v2.003.zip/DESCRIPTION.en_us.html	350	3703de9e79e4f4d8269ae586dda54b0af6516ba4a5c1f3aff9c94de4dcd53edc
+F-Droid archive input candidate	external/tarballs/extracted/NotoSansLao-v2.003.zip/OFL.txt	4379	a42993999944845fb5af693ea678a372a053db1f0981d55e911dcfa9d330f279
+F-Droid archive input candidate	external/tarballs/extracted/NotoSansLisu-v2.102.zip/AUTHORS.txt	247	727ab5b16dd99b3615f6fc2206f75fe78ac8ce54f20818e462b872ec57161d49
+F-Droid archive input candidate	external/tarballs/extracted/NotoSansLisu-v2.102.zip/CONTRIBUTORS.txt	471	30fae4014e249126a40bc01aaaa8aad443d200472de9e897affe7c9a4cefc764
+F-Droid archive input candidate	external/tarballs/extracted/NotoSansLisu-v2.102.zip/OFL.txt	4380	1f65bfdc26d6bd6e57249c60a86ea355761fb9150694e50206175d3fa8d3c166
+F-Droid archive input candidate	external/tarballs/extracted/NotoSansLisu-v2.102.zip/requirements.txt	100	12c718731f3e8e588e25e72015157c1a39215c401385736bfa22932bab92d6bd
+F-Droid archive input candidate	external/tarballs/extracted/NotoSerif-v2.015.zip/ARTICLE.en_us.html	5236	e9aeec88e29a034534d938d8453a14eaa82d2ae5676a4a46baac3a3c6f6d98cd
+F-Droid archive input candidate	external/tarballs/extracted/NotoSerif-v2.015.zip/AUTHORS.txt	247	727ab5b16dd99b3615f6fc2206f75fe78ac8ce54f20818e462b872ec57161d49
+F-Droid archive input candidate	external/tarballs/extracted/NotoSerif-v2.015.zip/CONTRIBUTORS.txt	554	05c4af69baeccb7a5ec875df9661d09bde7363404bc5a8b10ce28cf86551f01b
+F-Droid archive input candidate	external/tarballs/extracted/NotoSerif-v2.015.zip/DESCRIPTION.en_us.html	371	47c0d876aff1aae6bdd6d2320b7f4a3179b23ff11d6f2ebd56a7739ce373e9fa
+F-Droid archive input candidate	external/tarballs/extracted/NotoSerif-v2.015.zip/OFL.txt	4396	cee9892f9f0cc8fe882c9e9537ee6a89621d86ee7ceaf70b02e2b2b1c25c061a
+F-Droid archive input candidate	external/tarballs/extracted/NotoSerifArmenian-v2.008.zip/ARTICLE.en_us.html	1224	6e554bfc882f59c051cf33cae2889ed4cf4a955f943105e987399820a60bcbaa
+F-Droid archive input candidate	external/tarballs/extracted/NotoSerifArmenian-v2.008.zip/AUTHORS.txt	247	727ab5b16dd99b3615f6fc2206f75fe78ac8ce54f20818e462b872ec57161d49
+F-Droid archive input candidate	external/tarballs/extracted/NotoSerifArmenian-v2.008.zip/CONTRIBUTORS.txt	471	30fae4014e249126a40bc01aaaa8aad443d200472de9e897affe7c9a4cefc764
+F-Droid archive input candidate	external/tarballs/extracted/NotoSerifArmenian-v2.008.zip/DESCRIPTION.en_us.html	259	387b80ce59e8290fa59a42338e279daf595b3c300e55eaff178ce78262802c10
+F-Droid archive input candidate	external/tarballs/extracted/NotoSerifArmenian-v2.008.zip/OFL.txt	4384	0468358b316f69f405b55cadf8a8314e16e3610b8feaad96772bd5d968112d02
+F-Droid archive input candidate	external/tarballs/extracted/NotoSerifGeorgian-v2.003.zip/ARTICLE.en_us.html	1557	b53818ce0f0ba4a4adc3f9b522deb974e207a226daa4f4162a7e9262bf0ad78a
+F-Droid archive input candidate	external/tarballs/extracted/NotoSerifGeorgian-v2.003.zip/AUTHORS.txt	247	727ab5b16dd99b3615f6fc2206f75fe78ac8ce54f20818e462b872ec57161d49
+F-Droid archive input candidate	external/tarballs/extracted/NotoSerifGeorgian-v2.003.zip/CONTRIBUTORS.txt	471	30fae4014e249126a40bc01aaaa8aad443d200472de9e897affe7c9a4cefc764
+F-Droid archive input candidate	external/tarballs/extracted/NotoSerifGeorgian-v2.003.zip/DESCRIPTION.en_us.html	259	a41c6a65b5214dc3828fe435cd39be8d8492597df2648267b1845e632e888854
+F-Droid archive input candidate	external/tarballs/extracted/NotoSerifGeorgian-v2.003.zip/OFL.txt	4384	8c02263c5d73d40544f9ed91e30c4e947407057a3cc430d7b786189aeceff6df
+F-Droid archive input candidate	external/tarballs/extracted/NotoSerifHebrew-v2.004.zip/ARTICLE.en_us.html	1513	d061c6a8a940595a96ef25ea2d20abbf05274e633249c3afea3b6e44c7384ef8
+F-Droid archive input candidate	external/tarballs/extracted/NotoSerifHebrew-v2.004.zip/AUTHORS.txt	247	727ab5b16dd99b3615f6fc2206f75fe78ac8ce54f20818e462b872ec57161d49
+F-Droid archive input candidate	external/tarballs/extracted/NotoSerifHebrew-v2.004.zip/CONTRIBUTORS.txt	471	30fae4014e249126a40bc01aaaa8aad443d200472de9e897affe7c9a4cefc764
+F-Droid archive input candidate	external/tarballs/extracted/NotoSerifHebrew-v2.004.zip/DESCRIPTION.en_us.html	261	f9a819f4e30e81162d81385981c33e5d5b9f1e695c595993e28f3bd8e2e9b87b
+F-Droid archive input candidate	external/tarballs/extracted/NotoSerifHebrew-v2.004.zip/OFL.txt	4382	9b9fe028b5ba74d231659a1bbaf0ed09b11e759d1ca6a070999e16d151616b47
+F-Droid archive input candidate	external/tarballs/extracted/NotoSerifLao-v2.003.zip/ARTICLE.en_us.html	1015	79c6a2dc2260af979b26383400b0469f6e371761bba6fcfa74bebcdaad8b2f65
+F-Droid archive input candidate	external/tarballs/extracted/NotoSerifLao-v2.003.zip/AUTHORS.txt	247	727ab5b16dd99b3615f6fc2206f75fe78ac8ce54f20818e462b872ec57161d49
+F-Droid archive input candidate	external/tarballs/extracted/NotoSerifLao-v2.003.zip/CONTRIBUTORS.txt	504	5c2e3bb1842da0ca0743998965cc058e27df87401c253a26ce5b9a7d32842207
+F-Droid archive input candidate	external/tarballs/extracted/NotoSerifLao-v2.003.zip/DESCRIPTION.en_us.html	256	429546cd593fbcfbd1f944418c103f607ec28bf5eed336f09a62a2c9ff73e1b2
+F-Droid archive input candidate	external/tarballs/extracted/NotoSerifLao-v2.003.zip/OFL.txt	4379	a42993999944845fb5af693ea678a372a053db1f0981d55e911dcfa9d330f279
+F-Droid archive input candidate	external/tarballs/extracted/afdko-4.0.3.tar.gz/afdko-4.0.3.tar	101785600	15301ccc2f1f97bca8ed134983d06ce656d49c65762b1ccdd33cf38cc1a47493
+F-Droid archive input candidate	external/tarballs/extracted/alef-1.001.tar.gz/alef-1.001.tar	204800	938317edd246c9fb5c55fbbebe2b20f7114b591f49b177a18a6be53ba453c4f6
+F-Droid archive input candidate	external/tarballs/extracted/antlr4-cpp-runtime-4.13.2-source.zip/CMakeLists.txt	8348	61c7036b8dc375529c7078b2d739bcbf21780edbadb7c83a637877643fdd2da3
+F-Droid archive input candidate	external/tarballs/extracted/antlr4-cpp-runtime-4.13.2-source.zip/LICENSE.txt	1480	3db1fb3ee79a4b4f9918fc4d0f6133bf18a3cf787f126cd22f8aa9b862281c0c
+F-Droid archive input candidate	external/tarballs/extracted/antlr4-cpp-runtime-4.13.2-source.zip/README.md	3909	0d3d645ee87f526ffabb3ed23dc464da00e66edb05f26689e61dff32f81fb717
+F-Droid archive input candidate	external/tarballs/extracted/antlr4-cpp-runtime-4.13.2-source.zip/VERSION	7	fbd6c0b234162c9fe53ce32aab764a48525f169b595533b4171e7ee4d5344dc0
+F-Droid archive input candidate	external/tarballs/extracted/antlr4-cpp-runtime-4.13.2-source.zip/deploy-macos.sh	650	84f35fa28db1093a3dd0afb0f0083024058781b1eb546c1d8efe589140cb8d10
+F-Droid archive input candidate	external/tarballs/extracted/antlr4-cpp-runtime-4.13.2-source.zip/deploy-source.sh	643	2ba7a767f64232a2134e7a7baa5f83f691af48a412ac5fe4a9ba45f59fbee6cf
+F-Droid archive input candidate	external/tarballs/extracted/antlr4-cpp-runtime-4.13.2-source.zip/deploy-windows.cmd	2495	864b06a7e0533935498bef794d8339fcd41aa5a38b8d834091376f31aefef3ec
+F-Droid archive input candidate	external/tarballs/extracted/boost_1_89_0.tar.xz/boost_1_89_0.tar	217589760	c5fe39ef557a8fafe21c35a80cfb9102769a654856eb2f11345837d276951195
+F-Droid archive input candidate	external/tarballs/extracted/box2d-2.4.1.tar.gz/box2d-2.4.1.tar	5427200	7ab68c39e9cc2f94c61f549c6e4467923024084a9e16a39d7328f3136c4a66e0
+F-Droid archive input candidate	external/tarballs/extracted/c74b7223abe75949b4af367942d96c7a-crosextrafonts-carlito-20130920.tar.gz/c74b7223abe75949b4af367942d96c7a-crosextrafonts-carlito-20130920.tar	2785280	8aadb0a6aa2ede5386d5f3572f87fae5d34b46710ba28033762ea2d6e06d4e6f
+F-Droid archive input candidate	external/tarballs/extracted/cairo-1.18.4.tar.xz/cairo-1.18.4.tar	69683200	6577907f5321c5b7d6dd819b3fbedeaeed09881b8df373d075409211a29b45c4
+F-Droid archive input candidate	external/tarballs/extracted/culmus-0.140.tar.gz/culmus-0.140.tar	3962880	cd806f21e991610e116439c0224736f88c6cc565513a0196e12ee844685fb7af
+F-Droid archive input candidate	external/tarballs/extracted/curl-8.22.0.tar.xz/curl-8.22.0.tar	25651200	7daf8689ae61330fcbf2e7fa30d1bef2871541585a4b3a2db6688ddb5f010e26
+F-Droid archive input candidate	external/tarballs/extracted/dragonbox-1.1.3.tar.gz/dragonbox-1.1.3.tar	5099520	301aeabf1245ae7bb6ce5949913f3b390365d810a7ee82d0d72a2eeaee3d1bcb
+F-Droid archive input candidate	external/tarballs/extracted/e5be03eda13ef68aabab6e42aa67715e-redland-1.0.17.tar.gz/e5be03eda13ef68aabab6e42aa67715e-redland-1.0.17.tar	8355840	da9b82c372a1d366ae4a3c4d0c969ab67d126bd05b163a4abb469127ae2f344b
+F-Droid archive input candidate	external/tarballs/extracted/expat-2.8.4.tar.xz/expat-2.8.4.tar	3993600	b80f003caf6dbbf472249a79614135b70f1bd6abb05acda78821c0e4c1d58861
+F-Droid archive input candidate	external/tarballs/extracted/fast_float-8.2.2.tar.gz/fast_float-8.2.2.tar	624640	82dda40a7454a39889d2b006e7f609b69ab4fdcf3101c7195820aef0a77b1fef
+F-Droid archive input candidate	external/tarballs/extracted/fontconfig-2.18.0.tar.xz/fontconfig-2.18.0.tar	8939520	e58ef98e7a87b9245f42eaeaf1b65167ec1d8556c64cb78102a69383e520d971
+F-Droid archive input candidate	external/tarballs/extracted/freetype-2.14.3.tar.xz/freetype-2.14.3.tar	20377600	5a1cb8f1021bbde43b588cd1a74304ce4d61219fce29b260174e87bd5ba98244
+F-Droid archive input candidate	external/tarballs/extracted/frozen-1.2.0.tar.gz/frozen-1.2.0.tar	1064960	958d31da7598095e47e543e2fd8b2af8233690ce9b358ea126d89c6318d39dbe
+F-Droid archive input candidate	external/tarballs/extracted/graphite2-minimal-1.3.15.tgz/graphite2-minimal-1.3.15.tar	675840	c6a249b8ae78eeecd2d215c9062320bbd1345cbe726c7aed2206dbd3b71c224d
+F-Droid archive input candidate	external/tarballs/extracted/harfbuzz-12.3.2.tar.xz/harfbuzz-12.3.2.tar	103147520	38d81c174907727fa417e204bb673e77dccf23f759d70db3a903e97276a5bc5b
+F-Droid archive input candidate	external/tarballs/extracted/hunspell-1.7.3.tar.gz/hunspell-1.7.3.tar	8632320	93195cb74ccf70aab2f8400c3ef7dac9a9354fef3c6896aca41d4eaf0b36c5d9
+F-Droid archive input candidate	external/tarballs/extracted/icu4c-78.3-sources.tgz/icu4c-78.3-sources.tar	123136000	2b0b6abdff32fc31d11172f72656dce5c4c1d19ae7a1c9f1ca170a89c8487cde
+F-Droid archive input candidate	external/tarballs/extracted/language-subtag-registry-2026-08-08.tar.bz2/language-subtag-registry-2026-08-08.tar	737280	52d6f140860490bab7b66d306976574d295606e4be08922a5f32aa0919d77467
+F-Droid archive input candidate	external/tarballs/extracted/lcms2-2.19.1.tar.gz/lcms2-2.19.1.tar	11888640	3b2d53fecc211e57626f32070c165a53dc3f1d575af69c210f32fb88362942eb
+F-Droid archive input candidate	external/tarballs/extracted/libabw-0.1.4.tar.xz/libabw-0.1.4.tar	2478080	4a9edca01f4ab93913f7fd24e14e9d42dcff691782fb241c5d552d795ca4fb58
+F-Droid archive input candidate	external/tarballs/extracted/libcdr-0.1.9.tar.xz/libcdr-0.1.9.tar	4659200	8b855e541b7de7929941d1ccd604805795c4e280a1eafad9976120b12b950c0f
+F-Droid archive input candidate	external/tarballs/extracted/libcmis-0.6.3.tar.xz/libcmis-0.6.3.tar	4853760	d7e6e19d580c9430334e24356ba86343da5c694a8a0ff39e57c310aaa50d119d
+F-Droid archive input candidate	external/tarballs/extracted/libe-book-0.1.4.tar.xz/libe-book-0.1.4.tar	3563520	5355a918e2a77c9e91ae8d2eb8d73c4b61951007143cdd974a41ca0aad4915b1
+F-Droid archive input candidate	external/tarballs/extracted/libepoxy-1.5.10.tar.gz/libepoxy-1.5.10.tar	3491840	c11a39ab3331927d353b0ff584cf3567792afe8c56df82df22756a18023711b2
+F-Droid archive input candidate	external/tarballs/extracted/libepubgen-0.1.1.tar.xz/libepubgen-0.1.1.tar	2385920	7e2a7bfe4bc005bc0636a147f126b2cb38d8aab05e528e2bb5d4102aab5fe94c
+F-Droid archive input candidate	external/tarballs/extracted/liberation-fonts-ttf-2.1.5.tar.gz/liberation-fonts-ttf-2.1.5.tar	4392960	11387cec8c2325caf868c20ed91d77d0087be64ed4d75157240db14dc1606b35
+F-Droid archive input candidate	external/tarballs/extracted/liberation-narrow-fonts-ttf-1.07.6.tar.gz/liberation-narrow-fonts-ttf-1.07.6.tar	542720	621111df5809de0638bf2294680480db8ab3fbed7ef3c2e8ba3eec55927006b7
+F-Droid archive input candidate	external/tarballs/extracted/libetonyek-0.1.13.tar.xz/libetonyek-0.1.13.tar	6543360	396e13933ba269f9e724298911b22940728620c507ce4e7703e2d77f47bcb1a3
+F-Droid archive input candidate	external/tarballs/extracted/libexttextcat-3.4.8.tar.xz/libexttextcat-3.4.8.tar	5570560	122591f9dec68a9edbd455fdd8cd89b60e76d687a40d20aada3dcc53c90f8326
+F-Droid archive input candidate	external/tarballs/extracted/libfreehand-0.1.3.tar.xz/libfreehand-0.1.3.tar	3696640	7a07e76a31a2a332a2d32c9f3095488453eab0b321377dd1dff668f60b87e220
+F-Droid archive input candidate	external/tarballs/extracted/libjpeg-turbo-3.1.4.1.tar.gz/libjpeg-turbo-3.1.4.1.tar	10414080	27050cb595ac27afdb429f081d9f2df501da00b128978d9d6560d6b385ffcb98
+F-Droid archive input candidate	external/tarballs/extracted/liblangtag-0.6.8.tar.bz2/liblangtag-0.6.8.tar	6379520	629abcea95c93588ae5b6136781c77801457a91ada55b12236b879ad33c03826
+F-Droid archive input candidate	external/tarballs/extracted/libmspub-0.1.5.tar.xz/libmspub-0.1.5.tar	2938880	3df49f9850ef9d474e3bfd55b8f836ff378f9b4af28790ede8e241f4dc77d06b
+F-Droid archive input candidate	external/tarballs/extracted/libmwaw-0.3.23.tar.xz/libmwaw-0.3.23.tar	13025280	87f54de34c39373956fab620bd64a54c98d932c5973b8b5074406186562a0daa
+F-Droid archive input candidate	external/tarballs/extracted/libnumbertext-1.0.11.tar.xz/libnumbertext-1.0.11.tar	1966080	a9ffcd1cbd6c5969050b1b343cd789fd137fdf3fa3cbfc97a841507d5efc69f6
+F-Droid archive input candidate	external/tarballs/extracted/libodfgen-0.1.8.tar.xz/libodfgen-0.1.8.tar	2775040	9a9411a2e282de51b3cbbe6ceb477b2d729cd5870e5536323ab0b77c27a504bd
+F-Droid archive input candidate	external/tarballs/extracted/liborcus-0.21.0.tar.xz/liborcus-0.21.0.tar	13690880	60cd120aa6929046fb93d58fbbea88e0b520f3419fbeac86dfa4170dbbe88dad
+F-Droid archive input candidate	external/tarballs/extracted/libpagemaker-0.0.4.tar.xz/libpagemaker-0.0.4.tar	2242560	edd717661d90ebdfae04e33288d8bf8c682fdc977b9724400fdc9492f501dc70
+F-Droid archive input candidate	external/tarballs/extracted/libpng-1.6.58.tar.xz/libpng-1.6.58.tar	6849536	24193dadad9facb9dd7578679fcaefcccf52713f0f809747320921fccfe9bb79
+F-Droid archive input candidate	external/tarballs/extracted/libqxp-0.0.3.tar.xz/libqxp-0.0.3.tar	2764800	ba4e68fb8587ede3dbac4ced4f120644ca802fd7186dfb5678f091e4223fafc9
+F-Droid archive input candidate	external/tarballs/extracted/libre-hebrew-1.0.tar.gz/libre-hebrew-1.0.tar	1085440	ac52329a6cb1dbdcb7f9e2591fa96029ed8fcda6d3e0351e4fc10b5224077671
+F-Droid archive input candidate	external/tarballs/extracted/librevenge-0.0.6.tar.bz2/librevenge-0.0.6.tar	3348480	f9ff8f9b0beebc861257c65db507d12d4492f8bfc48530deaaaaee962b29813c
+F-Droid archive input candidate	external/tarballs/extracted/libstaroffice-0.0.8.tar.xz/libstaroffice-0.0.8.tar	6051840	f96f4d2844c42e8ec7c0407aac6968103f5e1bc722ca574f32d74cdb05f281e0
+F-Droid archive input candidate	external/tarballs/extracted/libvisio-0.1.11.tar.xz/libvisio-0.1.11.tar	6604800	604caf9e31b694175277500f47711475c98e05c6d3137fa3cb74a64602b46cd7
+F-Droid archive input candidate	external/tarballs/extracted/libwebp-1.6.0.tar.gz/libwebp-1.6.0.tar	10403840	7f158e50f55ff7bf5cd2e6c4014cb796e04e8685ab19c12fb27f8cb50e565802
+F-Droid archive input candidate	external/tarballs/extracted/libwpd-0.10.3.tar.xz/libwpd-0.10.3.tar	4290560	8a974299e141e5715c785358d8b3f1f7040ba21072caebd746fcfb9c9ab8eeed
+F-Droid archive input candidate	external/tarballs/extracted/libwpg-0.3.4.tar.xz/libwpg-0.3.4.tar	2396160	3e43d8ae1fad0f1b564fa99761d12996ef9df756971acc6b77979fe9b846c4b5
+F-Droid archive input candidate	external/tarballs/extracted/libwps-0.4.14.tar.xz/libwps-0.4.14.tar	5396480	0679a4acd7d59c293ff598290ff96166a8149d8fa7ab62e2112d2a3004072309
+F-Droid archive input candidate	external/tarballs/extracted/libxml2-2.14.6.tar.xz/libxml2-2.14.6.tar	30412800	3b40c48a965e6cb94821d43a45d7c19260f4964061c79626c3a311bd5c026b04
+F-Droid archive input candidate	external/tarballs/extracted/libxslt-1.1.45.tar.xz/libxslt-1.1.45.tar	19886080	c8448a868e320712dc944a1c57a48cc5d1d5967bed1f38d503b7bd6b50563e12
+F-Droid archive input candidate	external/tarballs/extracted/libzmf-0.0.2.tar.xz/libzmf-0.0.2.tar	2375680	1cbe303443941abca37d0eb530ca12d2ffb5a31ab51bfac291995f93dd6a77d7
+F-Droid archive input candidate	external/tarballs/extracted/md4c-release-0.5.3.tar.gz/md4c-release-0.5.3.tar	1136640	44832bd0b4013e59ee4057ddf63548d04031d5d2a37ae276bb6f43370aef51da
+F-Droid archive input candidate	external/tarballs/extracted/mdds-3.1.0.tar.xz/mdds-3.1.0.tar	5314560	dee969d8da18b3878720c0c55378bdfed80bfbcbbe013d00c83d4baced6bcd02
+F-Droid archive input candidate	external/tarballs/extracted/mythes-1.2.6.tar.xz/mythes-1.2.6.tar	16609280	62daf3e5238b8994d5fbbe56c9dbb9774ade0311c815d7614c10247007bb4e57
+F-Droid archive input candidate	external/tarballs/extracted/nss-3.128-with-nspr-4.39.tar.gz/nss-3.128-with-nspr-4.39.tar	223866880	f8eaeabede8d1f49ae38c01503a032039eee61801030dd3ceb14d26fb431da13
+F-Droid archive input candidate	external/tarballs/extracted/openssl-3.5.7.tar.gz/openssl-3.5.7.tar	135321600	6716cc4515a031e6ebb1e94ee7b3b8b13375d5daaa3765bf7e7a84668391280a
+F-Droid archive input candidate	external/tarballs/extracted/pdfium-7471.tar.bz2/pdfium-7471.tar	60497920	7690bec7e762b3417fe723fa6ed58f1e3a34a079e5c3741632fd3847666f3746
+F-Droid archive input candidate	external/tarballs/extracted/phc-winner-argon2-20190702.tar.gz/phc-winner-argon2-20190702.tar	3491840	4d1dac6ef66528b7a2bc910ff45c1015a1b83cb928515ca18a78dc76e688627b
+F-Droid archive input candidate	external/tarballs/extracted/pixman-0.46.4.tar.xz/pixman-0.46.4.tar	3532800	5ac80791189938f0fda6da8c63cc6c8907700f766957eeae7733ce9243869c7a
+F-Droid archive input candidate	external/tarballs/extracted/raptor2-2.0.16.tar.gz/raptor2-2.0.16.tar	12912640	fe7757983b1efc0eb27192901a0f92de1a5e2f9b3ca314ebc978bec3e0829461
+F-Droid archive input candidate	external/tarballs/extracted/tiff-4.7.2.tar.xz/tiff-4.7.2.tar	15974400	e9fe86ff1ff9fd61af2b6c180c64b7f00574abf530d79fb91197eae3b1e2ebf9
+F-Droid archive input candidate	external/tarballs/extracted/xmlsec1-1.3.12.tar.gz/xmlsec1-1.3.12.tar	16128000	fceaec98a0311e95d223aaf7233652b6d56e55dc64905b70c96a01e4561a68ab
+F-Droid archive input candidate	external/tarballs/extracted/zstd-1.5.7.tar.gz/zstd-1.5.7.tar	8919040	f1cb05ca79a264c240772c789429fc6ecd0d9e5fcd8be5fdeb98338841d65d2c
+F-Droid archive input candidate	external/tarballs/extracted/zxcvbn-c-2.6.tar.gz/zxcvbn-c-2.6.tar	3962880	4732de48faf2bed6bf206d7ac5eb94e95c06b9314361364aa0275e3371661bfd
+F-Droid archive input candidate	external/tarballs/extracted/zxing-cpp-2.3.0.tar.gz/zxing-cpp-2.3.0.tar	3758080	02673a09f9a9e97fe4cb2d4fedebe1c187235eef829b34e6f1e81999d88a9810
+source / recipe / patch	extras/source/truetype/symbol/OpenSymbol.sfd	1444110	aca99a3aacca8e0c6e204a3b332bc3c766c880e81c3322cf511cc8553392f1e0
+source / recipe / patch	extras/source/truetype/symbol/README	1654	e88188444102d76831c696724de2430dca702f9c2a59c2c0076d37ca79456023

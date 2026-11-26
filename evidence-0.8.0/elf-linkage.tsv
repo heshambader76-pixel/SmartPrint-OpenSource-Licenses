@@ -1,0 +1,15 @@
+APK ELF	GNU build ID	SONAME	DT_NEEDED shared dependencies	Android API note	NDK version note	NDK build note
+libc++_shared.so	ba615e4ff75bc2d8ba1eee93f983e02bc427c433	libc++_shared.so	libc.so,libm.so,libdl.so	21	r28	13004108
+libfreebl3.so	-	libfreebl3.so	libnssutil3.so,libnspr4.so,libdl.so,libc.so,liblog.so	21	r29	14206865
+liblo-native-code.so	d7cf10b49a96d69a8f7774c7baf927c38fa53513	liblo-native-code.so	libfreebl3.so,libnspr4.so,libnss3.so,libnssckbi.so,libnssdbm3.so,libnssutil3.so,libplc4.so,libplds4.so,libsmime3.so,libsoftokn3.so,libsqlite3.so,libssl3.so,libGLESv2.so,libandroid.so,libjnigraphics.so,liblog.so,libz.so,libc++_shared.so,libm.so,libdl.so,libc.so	21	r29	14206865
+libnspr4.so	-	libnspr4.so	libdl.so,liblog.so,libc.so	21	r29	14206865
+libnss3.so	-	libnss3.so	libnssutil3.so,libplc4.so,libplds4.so,libnspr4.so,libdl.so,libc.so,liblog.so	21	r29	14206865
+libnssckbi.so	-	libnssckbi.so	libplc4.so,libplds4.so,libnspr4.so,libdl.so,libc.so,liblog.so	21	r29	14206865
+libnssdbm3.so	-	libnssdbm3.so	libnssutil3.so,libplc4.so,libplds4.so,libnspr4.so,libdl.so,libc.so,liblog.so	21	r29	14206865
+libnssutil3.so	-	libnssutil3.so	libplc4.so,libplds4.so,libnspr4.so,libdl.so,libc.so,liblog.so	21	r29	14206865
+libplc4.so	-	libplc4.so	libnspr4.so,libdl.so,libc.so	21	r29	14206865
+libplds4.so	-	libplds4.so	libnspr4.so,libdl.so,libc.so	21	r29	14206865
+libsmime3.so	-	libsmime3.so	libnss3.so,libnssutil3.so,libplc4.so,libplds4.so,libnspr4.so,libdl.so,libc.so,liblog.so	21	r29	14206865
+libsoftokn3.so	-	libsoftokn3.so	libsqlite3.so,libnssutil3.so,libplc4.so,libplds4.so,libnspr4.so,libdl.so,libc.so,liblog.so	21	r29	14206865
+libsqlite3.so	-	libsqlite3.so	libdl.so,libc.so,liblog.so	21	r29	14206865
+libssl3.so	-	libssl3.so	libnss3.so,libnssutil3.so,libplc4.so,libplds4.so,libnspr4.so,libdl.so,libc.so,liblog.so	21	r29	14206865

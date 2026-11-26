@@ -1,0 +1,6 @@
+versionCode	item	bytes	SHA256 in signed index	URL	verification
+129	file	94772975	cfaf9eea5fd695c449e92eb10cc0b1617ec51d068345068cea9b7e1c67968df5	https://f-droid.org/repo/org.documentfoundation.libreoffice_129.apk	downloaded and matched
+129	src	1052814030	1d4264ae8b7f68c55124c3f68d38caa3dda31781fcf6f88c7b0a08e091963f1f	https://f-droid.org/repo/org.documentfoundation.libreoffice_129_src.tar.gz	signed catalog entry
+131	file	87682841	751ac3836890b79a56801bf6d9a2788cda3761ab5131a4f0b6abfbad822bb475	https://f-droid.org/repo/org.documentfoundation.libreoffice_131.apk	downloaded and matched
+131	src	1052785504	0e102144a7cce24e7291e744bef87a573dfb629d595e6a40f0d9fc8a4accb82b	https://f-droid.org/repo/org.documentfoundation.libreoffice_131_src.tar.gz	archive member matched
+-	index-v2	75319094	e112146fb58f636cc5202e32af6f7f2918e39281b2cbb61d736ed4664e87821a	https://f-droid.org/repo/index-v2.json	matched signed entry.jar
