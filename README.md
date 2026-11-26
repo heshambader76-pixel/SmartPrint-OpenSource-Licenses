@@ -9,11 +9,11 @@ This **public repository** hosts third-party open-source notices and covered sou
 
 The v0.7.0 release describes LibreOffice-related source materials, covered modifications, font sources, third-party notices and build-provenance documentation. These are supplier and project-provided materials; their presence alone does **not** establish full license compliance for every component.
 
-## SmartPrint Pro 0.8.0 status (25 November 2026)
+## SmartPrint Pro 0.8.0 status (26 November 2026)
 
 The app's Open Source Licenses action opens the public v0.7.0 release. During a Samsung S24 test, the owner verified that the link opens this public GitHub repository. The app's 0.8.0 source delivery is private and **must not** be uploaded here.
 
-The published archive currently carries the **0.7.0** release identifier. It has not yet been independently reconciled against the final 0.8.0 binary and component manifest. Do not describe it as verified complete corresponding source for 0.8.0 until that reconciliation is performed.
+For the latest detailed source-inventory comparison and remaining legal/provenance checks, see [the v0.8.0 licensing evidence review](VERSION-0.8.0-REVIEW.md). The published archive currently carries the **0.7.0** release identifier. It has not yet been independently reconciled against the final 0.8.0 binary and component manifest. Do not describe it as verified complete corresponding source for 0.8.0 until that reconciliation is performed.
 
 ## Licensing and provenance review still outstanding
 
